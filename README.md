@@ -1,6 +1,6 @@
-# Nuance Prompt REST API
+# Nice Prompt REST API
 
-Nuance prompt is a REST API offers an intuitive way for developers and users to enhance their prompts using advanced language models. This API supports both OpenAI and Ollama, providing versatile options for generating and improving prompt responses.
+Nice prompt is a REST API offers an intuitive way for developers and users to enhance their prompts using advanced language models. This API supports both OpenAI and Ollama, providing versatile options for generating and improving prompt responses.
 
 ## Features
 
@@ -64,7 +64,7 @@ Here is response;
 
 ### Local LLMS with Ollama
 
-For the Nuance Prompt API to communicate with your local Ollama server, you can use `localtunnel` to expose your local server. Here's how to set it up:
+For the Nice Prompt API to communicate with your local Ollama server, you can use `localtunnel` to expose your local server. Here's how to set it up:
 
 1. Install `localtunnel` globally on your machine:
 
@@ -82,7 +82,7 @@ lt --port 11434
 
 This command will generate a publicly accessible URL (e.g., <https://yoursubdomain.loca.lt>) that proxies all requests to your local Ollama server.
 
-When using the Nuance Prompt API /api/v1/ollama endpoint, include the generated localtunnel URL in the request header as X-LocalTunnel-Url.
+When using the Nice Prompt API /api/v1/ollama endpoint, include the generated localtunnel URL in the request header as X-LocalTunnel-Url.
 
 This setup allows your API to direct requests to your local Ollama server through the localtunnel URL.
 
