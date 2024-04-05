@@ -2,6 +2,9 @@
 
 Nice prompt is a REST API offers an intuitive way for developers and users to enhance their prompts using advanced language models. This API supports both OpenAI and Ollama, providing versatile options for generating and improving prompt responses.
 
+
+https://github.com/Nice-prompt/nice-prompt-api/assets/43992376/fb5c7d41-7776-4c12-aabd-ba7b3325b740
+
 ## Features
 
 - Generate dynamic responses with OpenAI's language models.
